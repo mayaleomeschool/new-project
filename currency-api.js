@@ -1,6 +1,6 @@
 async function getRates(base) {
   // If API key is missing or clearly a placeholder, return a small mocked response
-  if (!API_KEY || API_KEY === 'YOUR_API_KEY') {
+  if (!API_KEY || API_KEY === '89e198aba3524f4d07c809e5') {
     console.warn('No API key set in config.js — returning mock rates for development.');
     // simple deterministic mock (not accurate, just for dev/testing)
     return {
